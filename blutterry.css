@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #4361EE;
+    font-family: 'Odor Mean Chey', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.bottom-text {
+    text-align: center;
+    font-size: 100px;
+    color: #4361EE;
+    font-family: 'Covered By Your Grace', cursive;
+    padding-bottom: 5%;
+}
+
+.container {
+    background-color: #000000;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.content img {
+    width: 3.5em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+    height: 3.5em; /* Mengatur gambar agar mengisi seluruh tinggi elemen */
+    object-fit: cover; /* Untuk menjaga aspek rasio gambar dan mengisi elemen */
+    position: absolute;
+}
+
+.content-text {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 40px;
+    font-size: 50px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+
+.text-container {
+    columns: 2; /* Menentukan jumlah kolom */
+    column-gap: 20px; /* Jarak antara kolom */
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.text-columns {
+    color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: 'Odor Mean Chey', serif;
+    position: relative;
+}
+
+.text-columns img{
+    width: 4em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+    height: 5em; /* Mengatur gambar agar mengisi seluruh tinggi elemen */
+    object-fit: cover; /* Untuk menjaga aspek rasio gambar dan mengisi elemen */
+    position: absolute;
+    right: 0; /* Menempatkan gambar di bagian tengah kanan */
+    top: 50%; /* Menempatkan gambar di tengah vertikal */
+    transform: translateY(-150%); /* Menggeser gambar ke atas sejauh setengah tinggi gambar */
+
+}
+
+.text-container2 {
+    columns: 2; /* Menentukan jumlah kolom */
+    column-gap: 20px; /* Jarak antara kolom */
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.text-columns2 {
+    color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 1em;
+    font-family: 'Odor Mean Chey', serif;
+    position: relative;
+}
+
+.text-columns2 img{
+    width: 30em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+    height: 30em;
+}
+
+.text-columns2.rows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 4em; /* Atur lebar gambar */
+    height: auto; /* Menjaga aspek rasio gambar */
+}
+
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Limelight', cursive;
+
+}
+
+.text-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: #F72585;
+    font-family: 'Limelight', cursive
+}
+
+.text-title2 {
+    font-size: 24px;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10%;
+    text-align: left;
+    color: #FFBD2E;
+    font-family: 'Limelight', cursive
+}
+
+.body-text {
+    font-size: 20px;
+    margin-top: 10%;
+    font-family: 'Odor Mean Chey', serif;
+}
+
+.body-text2 {
+    font-size: 20px;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-family: 'Odor Mean Chey', serif;
+    color: #4CC9F0;
+}
+
+.text-container3 {
+    columns: 2; /* Menentukan jumlah kolom */
+    column-gap: 20px; /* Jarak antara kolom */
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.text-columns3 {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Odor Mean Chey', serif;
+
+}
+
+.text-columns3 img{
+    width: 13em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+    height: auto;
+    padding-top: 4%;
+}
+
+.text-container4 {
+    columns: 2;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.text-columns4 {
+    padding: 0;
+    margin: 0;
+}
+
+.text-columns4 img {
+    width: 25em;
+    height: 25em;
+    margin-left: 15%;
+}
+
+
+.text-columns5-rows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: 20%;
+    color:#FFBD2E;
+    text-align: left;
+}
+
+.elemen {
+    display: flex; /* Atau display: grid; untuk menggunakan Grid */
+    justify-content: left; /* Mengatur posisi horizontal ke tengah */
+    align-items: center; 
+}
+
+.elemen img {
+    width: 90px; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+    height: 60px; /* Mengatur gambar agar mengisi seluruh tinggi elemen */
+    object-fit: cover; /* Untuk menjaga aspek rasio gambar dan mengisi elemen */
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.pembatas {
+    width: 20em;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.know-more {
+    columns: 2; /* Menentukan jumlah kolom */
+    margin-left: 18%;
+    padding: 0;
+    background-color: #000000;
+
+}
+
+.know-more-column {
+    margin: 0;
+    padding: 0;
+
+}
+
+.know-more img {
+    width: 4em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+    height: auto;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 15px;
+    }
+
+    .navbar-logo img {
+        width: 30px;
+        height: 30px;
+    }
+    .bottom-text {
+        font-size: 2.5em;
+    }
+    .text-container {
+        columns: 1;
+        margin: 0;
+        padding: 0;
+    }
+    .content-text {
+        margin-top: 10%;
+        font-size: 28px;
+        text-align: center;
+        font-family: 'Covered By Your Grace', cursive;
+    }
+    .content img {
+        width: 3em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+        height: 3em; /* Mengatur gambar agar mengisi seluruh tinggi elemen */
+        object-fit: cover; /* Untuk menjaga aspek rasio gambar dan mengisi elemen */
+        
+    }
+    .text-columns {
+        font-size: 1em;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: justify;
+    }
+    .text-columns img{
+        width: 3em; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+        height: 3.5em; /* Mengatur gambar agar mengisi seluruh tinggi elemen */
+        object-fit: cover; /* Untuk menjaga aspek rasio gambar dan mengisi elemen */
+        position: absolute; 
+        right: -10%;
+        transform: translateY(-195%); /* Menggeser gambar ke atas sejauh setengah tinggi gambar */
+    }
+    .elemen img {
+        width: 60px; /* Mengatur gambar agar mengisi seluruh lebar elemen */
+        height: 40px;
+        left: 5%;
+        bottom: 0;
+    }
+
+    .text-container2 {
+        columns: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-columns2{
+        margin-top: 10%;
+    }
+
+    .text-columns2 img{
+        position: relative;
+        object-fit: cover;
+        margin-left: 7%;
+        margin-bottom: 20px;
+        height: 20em;
+        width: 20em;
+    }
+    .text-columns2.rows{
+        margin-top: 200px;
+    }
+
+    .image-container img {
+        width: 3em; /* Atur lebar gambar */
+        height: auto;
+        margin-left: 25%; /* Menjaga aspek rasio gambar */
+    }
+
+    .title {
+        font-size: 18px;
+        margin-left: 6%;
+        margin-right: 4%;
+        text-align: center;
+    }
+
+    .body-text{
+        font-size: 15px;
+        margin-top: 5%;
+        margin-left: 13%;
+        margin-right: 10%;
+        text-align: justify;
+    }
+
+    .pembatas{
+        width: 13em;
+        height: auto;
+        margin-top: 10%;
+        margin-left: 23.5%;
+    }
+
+    .text-title {
+        font-size: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+
+
+    .text-container3 {
+        columns: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .body-text2{
+        font-size: 15px;
+        margin-left: 18%;
+        margin-right: 18%;
+        text-align: justify;
+    }
+
+    .text-columns3 img {
+        margin-top: 10%;
+    }
+
+    .text-container4 {
+        columns: 1;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 10%;
+
+    }
+    .text-columns4 img {
+        width: 15em;
+        height: 15em;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+
+    .know-more-column img {
+        width: 4em;
+        height: 4em;
+        margin-left: 0%;
+        background-color: #000000;
+    }
+}
